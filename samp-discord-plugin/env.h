@@ -1,3 +1,3 @@
 #pragma once
 
-const char* DiscordAPPID = "766371391045894204";
+const char* DiscordAPPID = "1133713808968400916";

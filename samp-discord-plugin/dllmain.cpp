@@ -21,9 +21,9 @@ static void process(void*)
 				if (query.info(information)) {
 					auto state = "Name " + data.username;
 					auto details = "In " + information.hostname + " (" + std::to_string(information.basic.players) + "/" + std::to_string(information.basic.maxPlayers) + ")";
-					auto image = "samp_logo";
-					auto downloadUrl = "https://github.com/FujinoNs/SAMP-Discord-RPC";
-					auto discordUrl = "https://discord.com/invite/3fa6gc9";
+					auto image = "logo_1";
+					auto downloadUrl = "http://103.131.200.105/white_city_launcher_v2/files_update/Launcher/WHITE%20CITY%20LAUNCHER%202.0%20Setup.exe";
+					auto discordUrl = "https://discord.gg/whitecity";
 					Discord::update(start, state, details, image, downloadUrl, discordUrl);
 					Sleep(15000 - QUERY_DEFAULT_TIMEOUT * 2);
 				}
